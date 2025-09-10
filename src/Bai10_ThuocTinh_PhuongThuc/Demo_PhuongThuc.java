@@ -44,7 +44,7 @@ public class Demo_PhuongThuc {
         getName();// ham nay co tu khoa static
 
         System.out.println(tinhCV());
-        System.out.println(tinhS());//nancy
+        System.out.println(tinhS());
 
 
     }

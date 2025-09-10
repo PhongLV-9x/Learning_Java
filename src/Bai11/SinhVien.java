@@ -6,16 +6,16 @@ public class SinhVien {
     String address;
     String phone;
 
-    public String getinfo(){
+    public void getinfo(){
         System.out.println(name);
         System.out.println(age);
         System.out.println(address);
         System.out.println(phone);
-        return getinfo();
+        return;
     }
 
-    public String getName(){
-        return name;
+    public void getName(){
+        return;
     }
 
     public static void main(String[] args) {
@@ -23,10 +23,11 @@ public class SinhVien {
         SinhVien sv1 = new SinhVien();
         sv1.getinfo();
         sv1.getName();
+        System.out.println(sv1);
 
-        //Cach khai bao Annonymous
-        new SinhVien().getinfo();
-        new SinhVien().getName();
-        new SinhVien(); //Khởi tạo giá trị cho class Student (nếu có hàm xây dựng)
+//        //Cach khai bao Annonymous
+//        new SinhVien().getinfo();
+//        new SinhVien().getName();
+//        new SinhVien(); //Khởi tạo giá trị cho class Student (nếu có hàm xây dựng)
     }
 }
